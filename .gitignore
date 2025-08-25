@@ -1,4 +1,32 @@
-credentials.json
+# Secrets and credentials
+config/credentials.json
 token.json
 .env
+.env.*
+
+# Virtual environments
 venv/
+.venv/
+
+# Streamlit
+.streamlit/secrets.toml
+.streamlit/**/logs/
+
+# Python cache and build
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+*.egg-info/
+build/
+dist/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
