@@ -1,8 +1,12 @@
 # Secrets and credentials
-config/credentials.json
+credentials.json
 token.json
 .env
 .env.*
+
+# Keep GitHub workflows and documentation tracked
+copilot-instructions.md
+Google Spreadsheet/
 
 # Virtual environments
 venv/
